@@ -1,20 +1,21 @@
 .header--padding {
-display: flex;
-background-image: linear-gradient(to right, #F8F8F8, #ffffff);
-border-top: solid 1px #D9FFF5 ;
+    display: flex;
+    background-image: linear-gradient(to right, #F8F8F8, #ffffff);
+    border-top: solid 1px #D9FFF5 ;
 }
 
 .header__title {
-color: #7E7E82;
-text-transform: uppercase;
-font-weight: 400;
-padding-left: 31px;
+    color: #7E7E82;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-left: 31px;
 }
 
 .main__card {
     padding-top: 24px;
     padding-left: 31px;
     display: flex;
+    flex-direction: column;
     background-color: #F8F8F8;
     min-height: 285px;
 }
@@ -30,20 +31,51 @@ padding-left: 31px;
 .card__item {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     border-radius: 6px;
     border: solid 1px #EAEAEA;
     width: 240px;
     height: 72px;
     background-color: #ffffff;
 } 
+.card__brand {
+    padding-left: 16px;
+    width: auto;
+    height: auto;
+}
+.button_show-more {
+    width: 138px;
+    height: 24px;
+    padding-top: 48px;
+    color: rgb(27, 28, 33);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
 
-
-
-
-
-
-
+.button_show-more::before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    background-image: url('../img/cexpand.svg');
+    background-size: cover;
+}
 .button--go {
     background-image: url(../img/go.svg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 16px;
 }
