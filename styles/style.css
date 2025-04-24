@@ -1,0 +1,49 @@
+.header--padding {
+display: flex;
+background-image: linear-gradient(to right, #F8F8F8, #ffffff);
+border-top: solid 1px #D9FFF5 ;
+}
+
+.header__title {
+color: #7E7E82;
+text-transform: uppercase;
+font-weight: 400;
+padding-left: 31px;
+}
+
+.main__card {
+    padding-top: 24px;
+    padding-left: 31px;
+    display: flex;
+    background-color: #F8F8F8;
+    min-height: 285px;
+}
+
+.card__list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 16px;
+    
+}
+
+.card__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 6px;
+    border: solid 1px #EAEAEA;
+    width: 240px;
+    height: 72px;
+    background-color: #ffffff;
+} 
+
+
+
+
+
+
+
+.button--go {
+    background-image: url(../img/go.svg);
+}
