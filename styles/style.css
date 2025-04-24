@@ -21,11 +21,16 @@
 }
 
 .card__list {
+    height: 160px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 32px;
     row-gap: 16px;
-    
+    overflow-y: hidden;
+}
+
+.card__list::-webkit-scrollbar {
+    display: none;
 }
 
 .card__item {
@@ -66,7 +71,7 @@
     width: 24px;
     height: 24px;
     margin-right: 8px;
-    background-image: url('../img/cexpand.svg');
+    background-image: url('../img/expandread-more.svg');
     background-size: cover;
 }
 .button--go {
