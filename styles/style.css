@@ -21,7 +21,7 @@
 }
 
 .card__list {
-    max-height: 160px;
+    max-height: 170px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 32px;
