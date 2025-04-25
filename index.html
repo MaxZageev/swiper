@@ -12,7 +12,9 @@
      <link rel="manifest" href="site.webmanifest" />
          <link rel="stylesheet" href="styles/index.css">
          <link rel="stylesheet" href="fonts/fonts.css">
-         <script src="/script.js" defer></script>
+         <link rel="stylesheet" href="SwiperV11.2.6/swiper.min.css">
+         <script src="SwiperV11.2.6/swiper.min.js" defer></script>
+         <script src="scripts/script.js" defer></script>
 </head>
 <body>
  <header class="header header--padding">
@@ -22,52 +24,72 @@
     <div class="main__card card">
       <ul class="card__list">
        <li class="card__item">
-        <img class="card__brand card__brand--lenovo" src="/img/lenovoBitmap.svg"></img>
+        <img class="card__brand card__brand--lenovo" src="img/lenovoBitmap.svg"></img>
         <div class="button--go round-icon"></div>
        </li>
        <li class="card__item">
-        <img class="card__brand card__brand--samsung" src="/img/SamsungBitmap.svg"></img>
+        <img class="card__brand card__brand--samsung" src="img/SamsungBitmap.svg"></img>
         <div class="button--go round-icon"></div>
        </li>
        <li class="card__item">
-        <img class="card__brand card__brand--apple" src="/img/AppleBitmap.svg"></img>
+        <img class="card__brand card__brand--apple" src="img/AppleBitmap.svg"></img>
         <div class="button--go round-icon"></div>
        </li>
        <li class="card__item">
-        <img class="card__brand card__brand--sonic" src="/img/SonicBitmap.svg"></img>
+        <img class="card__brand card__brand--sonic" src="img/SonicBitmap.svg"></img>
         <div class="button--go round-icon"></div>
        </li>
        <li class="card__item">
-        <img class="card__brand card__brand--bosch" src="/img/BoschBitmap.svg"></img>
+        <img class="card__brand card__brand--bosch" src="img/BoschBitmap.svg"></img>
         <div class="button--go round-icon"></div>
        </li>
        <li class="card__item">
-        <img class="card__brand card__brand--hp" src="/img/HpBitmap.svg"></img>
+        <img class="card__brand card__brand--hp" src="img/HpBitmap.svg"></img>
         <div class="button--go round-icon"></div>
        </li>
        <li class="card__item">
-        <img class="card__brand card__brand--acer" src="/img/AcerBitmap.svg"></img>
+        <img class="card__brand card__brand--acer" src="img/AcerBitmap.svg"></img>
         <div class="button--go round-icon"></div>
        </li>
        <li class="card__item">
-        <img class="card__brand card__brand--sony" src="/img/SonyBitmap.svg"></img>
+        <img class="card__brand card__brand--sony" src="img/SonyBitmap.svg"></img>
         <div class="button--go round-icon"></div>
        </li>
        <li class="card__item">
-        <img class="card__brand card__brand--lenovo" src="/img/lenovoBitmap.svg"></img>
+        <img class="card__brand card__brand--lenovo" src="img/lenovoBitmap.svg"></img>
         <div class="button--go round-icon"></div>
        </li>
        <li class="card__item">
-        <img class="card__brand card__brand--samsung" src="/img/SamsungBitmap.svg"></img>
+        <img class="card__brand card__brand--samsung" src="img/SamsungBitmap.svg"></img>
         <div class="button--go round-icon"></div>
        </li>
        <li class="card__item">
-        <img class="card__brand card__brand--apple" src="/img/AppleBitmap.svg"></img>
+        <img class="card__brand card__brand--apple" src="img/AppleBitmap.svg"></img>
         <div class="button--go round-icon"></div>
        </li>
       </ul>
       <button type="button" class="article__button button button_show-more">Показать всё</button>
    </div>  
  </main>
+ <!-- Slider main container -->
+<div class="swiper">
+   <!-- Additional required wrapper -->
+   <div class="swiper-wrapper">
+     <!-- Slides -->
+     <div class="swiper-slide">Slide 1</div>
+     <div class="swiper-slide">Slide 2</div>
+     <div class="swiper-slide">Slide 3</div>
+     ...
+   </div>
+   <!-- If we need pagination -->
+   <div class="swiper-pagination"></div>
+ 
+   <!-- If we need navigation buttons -->
+   <div class="swiper-button-prev"></div>
+   <div class="swiper-button-next"></div>
+ 
+   <!-- If we need scrollbar -->
+   <div class="swiper-scrollbar"></div>
+ </div>
 </body>
 </html>
