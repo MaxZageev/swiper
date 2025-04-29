@@ -14,7 +14,7 @@ showMoreBtn.addEventListener('click', () => {
 
 // втавляем разметку свайпера на мобилки
 const mainCard = document.querySelector('.main__card');
-if (window.innerWidth <= 350 && mainCard) {
+if (window.innerWidth <= 750 && mainCard) {
   const swiperContainerHTML = `
     <div class="brands-mobile card__swiper">
       <div class="swiper">
