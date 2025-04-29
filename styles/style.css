@@ -34,7 +34,6 @@
 
 }
 
-
 .card__list::-webkit-scrollbar {
     display: none;
 }
@@ -97,7 +96,63 @@
     margin-right: 16px;
 }
 
-.swiper {
-    width: 600px;
-    height: 300px;
+
+/* Блок мобильного свайпера */
+.brands-mobile {
+    margin-top: 0;
+    padding-top: 0;
+    order: -1;
+  }
+  
+  
+  .card__swiper .swiper {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  
+  .card__swiper .swiper-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .card__swiper .swiper-slide {
+    width: 240px !important;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    border: 1px solid #EAEAEA;
+    background-color: #ffffff;
+  }
+  
+ 
+  .card__swiper .card__brand {
+    padding-left: 16px;
+    width: auto;
+    height: auto;
+  }
+  
+ 
+  
+  .swiper-pagination {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+  }
+  
+  .custom-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #DDDDDD;
+    border-radius: 50%;
+    opacity: 1;
+    transition: background-color 0.3s;
+  }
+  
+  .custom-bullet-active {
+    background-color: #B5B6BC;
   }
